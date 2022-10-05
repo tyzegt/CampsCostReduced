@@ -1,0 +1,223 @@
+[
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_room_center_wad",
+    "description": "Lets start building the central kitchen wattle and daub walls.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "faction_base_canteen_wad",
+    "blueprint_name": "build the wattle and daub central kitchen room",
+    "blueprint_requires": [ { "id": "fbmk_0" } ],
+    "blueprint_provides": [ { "id": "fbmk_center" } ],
+    "blueprint_excludes": [ { "id": "fbmk_center" } ],
+    "blueprint_needs": {
+      "time": "1 d 1 h",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 36 ] ],
+          [ [ "nail", 48 ] ],
+          [ [ "material_quicklime", 12 ], [ "material_limestone", 12 ], [ "clay_lump", 12 ] ],
+          [ [ "pebble", 30 ], [ "material_sand", 30 ] ],
+          [ [ "straw_pile", 12 ], [ "cattail_stalk", 12 ], [ "dogbane", 12 ], [ "pine_bough", 12 ] ],
+          [ [ "water", 15 ], [ "water_clean", 15 ] ],
+          [ [ "rope_makeshift_6", 2 ], [ "rope_6", 2 ] ],
+          [ [ "wood_panel", 11 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_room2_center_wad",
+    "description": "Lets finish the central kitchen wattle and daub walls.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "faction_base_canteen2_wad",
+    "blueprint_name": "finish the wattle and daub central kitchen room",
+    "blueprint_requires": [ { "id": "fbmk_center" } ],
+    "blueprint_provides": [ { "id": "fbmk_center2" } ],
+    "blueprint_excludes": [ { "id": "fbmk_center2" } ],
+    "blueprint_needs": {
+      "time": "1 d 10 h 50 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 51 ] ],
+          [ [ "nail", 73 ] ],
+          [ [ "material_quicklime", 15 ], [ "material_limestone", 15 ], [ "clay_lump", 15 ] ],
+          [ [ "pebble", 38 ], [ "material_sand", 38 ] ],
+          [ [ "straw_pile", 15 ], [ "cattail_stalk", 15 ], [ "dogbane", 15 ], [ "pine_bough", 15 ] ],
+          [ [ "water", 19 ], [ "water_clean", 19 ] ],
+          [ [ "rope_makeshift_6", 4 ], [ "rope_6", 4 ] ],
+          [ [ "wood_panel", 16 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_smoking_area_wad",
+    "description": "Lets get this wattle and daub smoking area covered to protect the workers from the weather.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "faction_base_smoking_area_wad",
+    "blueprint_name": "build a wattle and daub roofed area for smoking racks",
+    "blueprint_requires": [ { "id": "fbmk_center2" } ],
+    "blueprint_provides": [ { "id": "fbmk_smoking_area" } ],
+    "blueprint_excludes": [ { "id": "fbmk_smoking_area" } ],
+    "blueprint_needs": {
+      "time": "1 d 8 h 25 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 48 ] ],
+          [ [ "nail", 89 ] ],
+          [ [ "material_quicklime", 9 ], [ "material_limestone", 9 ], [ "clay_lump", 9 ] ],
+          [ [ "pebble", 24 ], [ "material_sand", 24 ] ],
+          [ [ "straw_pile", 9 ], [ "cattail_stalk", 9 ], [ "dogbane", 9 ], [ "pine_bough", 9 ] ],
+          [ [ "water", 12 ], [ "water_clean", 12 ] ],
+          [ [ "wood_panel", 4 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_pantry_wad",
+    "description": "Lets build a wattle and daub wall pantry west of the kitchen.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmk_canteen_pantry_wad",
+    "blueprint_name": "build a wattle and daub pantry",
+    "blueprint_requires": [ { "id": "fbmk_center2" } ],
+    "blueprint_provides": [ { "id": "fbmk_pantry_room" } ],
+    "blueprint_excludes": [ { "id": "fbmk_pantry_room" } ],
+    "blueprint_needs": {
+      "time": "2 d 3 h 40 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 72 ] ],
+          [ [ "cattail_stalk", 25 ], [ "dogbane", 25 ], [ "pine_bough", 25 ], [ "straw_pile", 25 ] ],
+          [ [ "clay_lump", 25 ], [ "material_limestone", 25 ], [ "material_quicklime", 25 ] ],
+          [ [ "material_sand", 64 ], [ "pebble", 64 ] ],
+          [ [ "nail", 100 ] ],
+          [ [ "water", 32 ], [ "water_clean", 32 ] ],
+          [ [ "wood_panel", 5 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_dining_west_wad",
+    "description": "Lets build the west wattle and daub wall of the dining hall.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmk_canteen_dining_west_wad",
+    "blueprint_name": "build W wattle and daub wall",
+    "blueprint_requires": [ { "id": "fbmk_pantry_room" } ],
+    "blueprint_provides": [ { "id": "fbmk_canteen_dining_west" } ],
+    "blueprint_excludes": [ { "id": "fbmk_canteen_dining_west" } ],
+    "blueprint_needs": {
+      "time": "1 d 1 h 46 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [ [ [ "machete", -1 ], [ "makeshift_machete", -1 ], [ "scythe", -1 ], [ "sickle", -1 ], [ "survivor_machete", -1 ] ] ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 37 ] ],
+          [ [ "nail", 54 ] ],
+          [ [ "material_quicklime", 11 ], [ "material_limestone", 11 ], [ "clay_lump", 11 ] ],
+          [ [ "pebble", 28 ], [ "material_sand", 28 ] ],
+          [ [ "straw_pile", 11 ], [ "cattail_stalk", 11 ], [ "dogbane", 11 ], [ "pine_bough", 11 ] ],
+          [ [ "water", 14 ], [ "water_clean", 14 ] ],
+          [ [ "rope_makeshift_6", 2 ], [ "rope_6", 2 ] ],
+          [ [ "wood_panel", 11 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_dining_east_wad",
+    "description": "Lets build the east wattle and daub wall of the dining hall.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmk_canteen_dining_east_wad",
+    "blueprint_name": "build E wattle and daub wall",
+    "blueprint_requires": [ { "id": "fbmk_canteen_dining_west" }, { "id": "fbmk_smoking_area" } ],
+    "blueprint_provides": [ { "id": "fbmk_canteen_dining_east" } ],
+    "blueprint_excludes": [ { "id": "fbmk_canteen_dining_east" } ],
+    "blueprint_needs": {
+      "time": "1 d 8 h 40 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 46 ] ],
+          [ [ "nail", 74 ] ],
+          [ [ "material_quicklime", 13 ], [ "material_limestone", 13 ], [ "clay_lump", 13 ] ],
+          [ [ "pebble", 34 ], [ "material_sand", 34 ] ],
+          [ [ "straw_pile", 13 ], [ "cattail_stalk", 13 ], [ "dogbane", 13 ], [ "pine_bough", 13 ] ],
+          [ [ "water", 17 ], [ "water_clean", 17 ] ],
+          [ [ "wood_panel", 17 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_canteen_dining_center_wad",
+    "description": "Lets build the center of the wattle and daub dining hall.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmk_canteen_dining_center_wad",
+    "blueprint_name": "build center of the wattle and daub dining hall",
+    "blueprint_requires": [ { "id": "fbmk_canteen_dining_east" } ],
+    "blueprint_provides": [ { "id": "fbmk_canteen_dining_center" } ],
+    "blueprint_excludes": [ { "id": "fbmk_canteen_dining_center" } ],
+    "blueprint_needs": {
+      "time": "1 d 5 h 40 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 47 ] ],
+          [ [ "nail", 100 ] ],
+          [ [ "material_quicklime", 20 ], [ "material_limestone", 20 ], [ "clay_lump", 20 ] ],
+          [ [ "pebble", 10 ], [ "material_sand", 10 ] ],
+          [ [ "straw_pile", 20 ], [ "cattail_stalk", 20 ], [ "dogbane", 20 ], [ "pine_bough", 20 ] ],
+          [ [ "water", 5 ], [ "water_clean", 5 ] ],
+          [ [ "rope_makeshift_6", 2 ], [ "rope_6", 2 ] ],
+          [ [ "wood_panel", 4 ] ]
+        ]
+      }
+    }
+  }
+]

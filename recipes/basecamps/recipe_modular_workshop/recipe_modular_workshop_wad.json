@@ -1,0 +1,244 @@
+[
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room0_wad_northeast",
+    "description": "We can use a wattle and daub workshop.  Let's start by building a spot to protect the workers from the rain.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmw_room0_wad_northeast",
+    "blueprint_name": "northeast wall",
+    "blueprint_requires": [ { "id": "fbmw_0" } ],
+    "blueprint_provides": [ { "id": "fbmw_northeast" } ],
+    "blueprint_excludes": [ { "id": "fbmw_northeast" } ],
+    "blueprint_needs": {
+      "time": "1 d 17 h 40 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 60 ] ],
+          [ [ "cattail_stalk", 16 ], [ "dogbane", 16 ], [ "pine_bough", 16 ], [ "straw_pile", 16 ] ],
+          [ [ "clay_lump", 16 ], [ "material_limestone", 16 ], [ "material_quicklime", 16 ] ],
+          [ [ "material_sand", 40 ], [ "pebble", 40 ] ],
+          [ [ "nail", 100 ] ],
+          [ [ "water", 20 ], [ "water_clean", 20 ] ],
+          [ [ "wood_panel", 5 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room3_wad_north",
+    "description": "Let's extend the north wattle and daub wall to the west and add some storage space.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmw_room3_wad_north",
+    "blueprint_name": "north wall",
+    "blueprint_requires": [ { "id": "fbmw_northeast", "amount": 3 } ],
+    "blueprint_provides": [ { "id": "fbmw_north" } ],
+    "blueprint_excludes": [ { "id": "fbmw_north" } ],
+    "blueprint_needs": {
+      "time": "1 d 2 h 45 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 37 ] ],
+          [ [ "cattail_stalk", 10 ], [ "dogbane", 10 ], [ "pine_bough", 10 ], [ "straw_pile", 10 ] ],
+          [ [ "clay_lump", 10 ], [ "material_limestone", 10 ], [ "material_quicklime", 10 ] ],
+          [ [ "material_sand", 26 ], [ "pebble", 26 ] ],
+          [ [ "nail", 70 ] ],
+          [ [ "rope_6", 2 ], [ "rope_makeshift_6", 2 ] ],
+          [ [ "water", 13 ], [ "water_clean", 13 ] ],
+          [ [ "wood_panel", 4 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room4_wad_east",
+    "description": "Let's expand our production by adding another charcoal kiln.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmw_room4_wad_east",
+    "blueprint_name": "east forage wall",
+    "blueprint_requires": [ { "id": "fbmw_north" } ],
+    "blueprint_provides": [ { "id": "fbmw_east" }, { "id": "blacksmith_recipes_3" } ],
+    "blueprint_excludes": [ { "id": "fbmw_east" } ],
+    "blueprint_needs": {
+      "time": "1 d 19 h 40 m",
+      "skills": [ [ "survival", 3 ], [ "fabrication", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "SAW_W", "level": 2 } ], [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 63 ] ],
+          [ [ "cattail_stalk", 7 ], [ "dogbane", 7 ], [ "pine_bough", 7 ], [ "straw_pile", 7 ] ],
+          [ [ "clay_lump", 7 ], [ "material_limestone", 7 ], [ "material_quicklime", 7 ] ],
+          [ [ "material_sand", 18 ], [ "pebble", 18 ] ],
+          [ [ "material_soil", 2 ] ],
+          [ [ "nail", 140 ] ],
+          [ [ "rock", 8 ] ],
+          [ [ "rope_6", 2 ], [ "rope_makeshift_6", 2 ] ],
+          [ [ "water", 9 ], [ "water_clean", 9 ] ],
+          [ [ "wood_panel", 7 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room5_wad_center",
+    "description": "Let's expand work area with a wattle and daub wall, and add add a bookshelf for our reference books.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmw_room5_wad_center",
+    "blueprint_name": "west forage wall",
+    "blueprint_requires": [ { "id": "fbmw_east" } ],
+    "blueprint_provides": [ { "id": "fbmw_center" } ],
+    "blueprint_excludes": [ { "id": "fbmw_center" } ],
+    "blueprint_needs": {
+      "time": "23 h 55 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ], [ "tailor", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 34 ] ],
+          [ [ "blanket", 1 ], [ "down_blanket", 1 ], [ "fur_blanket", 1 ] ],
+          [ [ "cattail_stalk", 8 ], [ "dogbane", 8 ], [ "pine_bough", 8 ], [ "straw_pile", 8 ] ],
+          [ [ "clay_lump", 8 ], [ "material_limestone", 8 ], [ "material_quicklime", 8 ] ],
+          [ [ "material_sand", 20 ], [ "pebble", 20 ] ],
+          [ [ "nail", 62 ] ],
+          [ [ "water", 10 ], [ "water_clean", 10 ] ],
+          [ [ "wood_panel", 19 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room6_wad_north",
+    "description": "Let's expand our production by adding a wattle and daub walled pottery kiln area.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmw_room6_wad_north",
+    "blueprint_name": "north pottery wall",
+    "blueprint_requires": [ { "id": "fbmw_center" } ],
+    "blueprint_provides": [ { "id": "fbmw_north" }, { "id": "blacksmith_recipes_4" } ],
+    "blueprint_excludes": [ { "id": "fbmw_north", "amount": 2 } ],
+    "blueprint_resources": [ "tongs", "chisel", "hammer", "swage" ],
+    "components": [ [ [ "tongs", 1 ] ], [ [ "chisel", 1 ] ], [ [ "hammer", 1 ] ], [ [ "swage", 1 ] ] ],
+    "blueprint_needs": {
+      "time": "1 d 3 h 10 m",
+      "skills": [ [ "fabrication", 4 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [ [ [ "oxy_torch", 20 ], [ "toolset", 150 ], [ "welder", 100 ], [ "welder_crude", 150 ] ] ],
+        "qualities": [
+          [ { "id": "CUT" } ],
+          [ { "id": "GLARE", "level": 2 } ],
+          [ { "id": "HAMMER", "level": 2 } ],
+          [ { "id": "SAW_W", "level": 2 } ]
+        ],
+        "components": [
+          [ [ "2x4", 32 ] ],
+          [ [ "cattail_stalk", 4 ], [ "dogbane", 4 ], [ "pine_bough", 4 ], [ "straw_pile", 4 ] ],
+          [ [ "clay_lump", 12 ], [ "material_cement", 50 ], [ "mortar_build", 1 ] ],
+          [ [ "clay_lump", 4 ], [ "material_limestone", 4 ], [ "material_quicklime", 4 ] ],
+          [ [ "material_sand", 12 ], [ "pebble", 12 ] ],
+          [ [ "nail", 76 ] ],
+          [ [ "pipe", 16 ] ],
+          [ [ "rock", 8 ] ],
+          [ [ "sheet_metal", 4 ] ],
+          [ [ "sheet_metal_small", 8 ] ],
+          [ [ "water", 6 ], [ "water_clean", 6 ] ],
+          [ [ "wood_panel", 4 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room7to9_wad_northwest",
+    "description": "Let's enclose this pottery with wattle and daub walls and get some more storage set up.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmw_room7to9_wad_northwest",
+    "blueprint_name": "northwest and south pottery wall",
+    "blueprint_requires": [ { "id": "fbmw_north", "amount": 2 } ],
+    "blueprint_provides": [ { "id": "fbmw_northwest" }, { "id": "blacksmith_recipes_5" } ],
+    "blueprint_excludes": [ { "id": "fbmw_northwest" } ],
+    "blueprint_needs": {
+      "time": "1 d 15 h 58 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [ [ [ "machete", -1 ], [ "makeshift_machete", -1 ], [ "scythe", -1 ], [ "sickle", -1 ], [ "survivor_machete", -1 ] ] ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 52 ] ],
+          [ [ "cattail_stalk", 19 ], [ "dogbane", 19 ], [ "pine_bough", 19 ], [ "straw_pile", 19 ] ],
+          [ [ "clay_lump", 19 ], [ "material_limestone", 19 ], [ "material_quicklime", 19 ] ],
+          [ [ "material_sand", 48 ], [ "pebble", 48 ] ],
+          [ [ "nail", 90 ] ],
+          [ [ "rope_6", 2 ], [ "rope_makeshift_6", 2 ] ],
+          [ [ "water", 24 ], [ "water_clean", 24 ] ],
+          [ [ "wood_panel", 6 ] ]
+        ]
+      }
+    }
+  },
+  {
+    "type": "recipe",
+    "result": "faction_base_modular_workshop_room11to12_wad_southeast",
+    "description": "Let's expand the workspace for larger projects and add a drop hammer for productivity.",
+    "category": "CC_BUILDING",
+    "subcategory": "CSC_BUILDING_BASES",
+    "autolearn": false,
+    "never_learn": true,
+    "construction_blueprint": "fbmw_room11to12_wad_southeast",
+    "blueprint_name": "openair, covered work space",
+    "blueprint_requires": [ { "id": "fbmw_northeast", "amount": 4 } ],
+    "blueprint_provides": [ { "id": "fbmw_southeast" }, { "id": "fbmw_south" }, { "id": "blacksmith_recipes_7" } ],
+    "blueprint_excludes": [ { "id": "fbmw_northsoutheast" }, { "id": "fbmw_south" } ],
+    "blueprint_resources": [ "wrench", "pliers", "fake_drop_hammer" ],
+    "components": [ [ [ "wrench", 1 ] ], [ [ "pliers", 1 ] ] ],
+    "blueprint_needs": {
+      "time": "2 d 14 h 40 m",
+      "skills": [ [ "fabrication", 3 ], [ "survival", 3 ] ],
+      "inline": {
+        "tools": [  ],
+        "qualities": [ [ { "id": "CUT" } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
+        "components": [
+          [ [ "2x4", 90 ] ],
+          [ [ "anvil", 1 ] ],
+          [ [ "cattail_stalk", 16 ], [ "dogbane", 16 ], [ "pine_bough", 16 ], [ "straw_pile", 16 ] ],
+          [ [ "chain", 4 ] ],
+          [ [ "clay_lump", 16 ], [ "material_limestone", 16 ], [ "material_quicklime", 16 ] ],
+          [ [ "material_sand", 40 ], [ "pebble", 40 ] ],
+          [ [ "metal_tank", 2 ] ],
+          [ [ "nail", 176 ] ],
+          [ [ "pipe", 3 ] ],
+          [ [ "water", 20 ], [ "water_clean", 20 ] ],
+          [ [ "water_faucet", 2 ] ],
+          [ [ "wood_panel", 8 ] ]
+        ]
+      }
+    }
+  }
+]

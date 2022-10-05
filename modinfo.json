@@ -1,0 +1,13 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "CampCostReduced",
+    "name": "Camp Cost Reduced",
+    "authors": [ "Tyzegt" ],
+    "maintainers": [ "Tyzegt" ],
+    "description": "Reduced cost of faction camp buildings 5 times",
+    "category": "content",
+    "dependencies": [ "dda" ],
+    "obsolete": false
+  }
+]
