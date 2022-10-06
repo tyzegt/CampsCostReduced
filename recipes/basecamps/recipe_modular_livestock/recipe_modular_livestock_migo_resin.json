@@ -36,16 +36,16 @@
     "blueprint_provides": [ { "id": "fbml_southeast" } ],
     "blueprint_excludes": [ { "id": "fbml_southeast" } ],
     "blueprint_needs": {
-      "time": "1 d 8 h 40 m",
+      "time": "1 d 10 h 40 m",
       "skills": [ [ "fabrication", 2 ] ],
       "inline": {
         "tools": [  ],
         "qualities": [ [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W" } ], [ { "id": "SMOOTH" } ] ],
         "components": [
           [ [ "2x4", 6 ] ],
-          [ [ "wood_sheet", 11 ], [ "wood_panel", 4 ] ],
+          [ [ "alien_pod_resin", 8 ] ],
           [ [ "nail", 41 ] ],
-          [ [ "alien_pod_resin", 8 ] ]
+          [ [ "wood_panel", 4 ], [ "wood_sheet", 11 ] ]
         ]
       }
     }

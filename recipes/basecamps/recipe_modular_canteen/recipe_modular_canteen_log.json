@@ -13,18 +13,18 @@
     "blueprint_provides": [ { "id": "fbmk_center" } ],
     "blueprint_excludes": [ { "id": "fbmk_center" } ],
     "blueprint_needs": {
-      "time": "1 d 16 h 45 m",
+      "time": "23 h 35 m",
       "skills": [ [ "fabrication", 3 ] ],
       "inline": {
         "tools": [  ],
         "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
         "components": [
-          [ [ "2x4", 39 ] ],
-          [ [ "nail", 113 ] ],
-          [ [ "wood_panel", 4 ] ],
-          [ [ "hinge", 2 ] ],
+          [ [ "2x4", 26 ] ],
           [ [ "glass_sheet", 3 ] ],
-          [ [ "log", 4 ] ]
+          [ [ "hinge", 2 ] ],
+          [ [ "log", 4 ] ],
+          [ [ "nail", 25 ] ],
+          [ [ "wood_panel", 1 ] ]
         ]
       }
     }
@@ -43,18 +43,18 @@
     "blueprint_provides": [ { "id": "fbmk_center2" } ],
     "blueprint_excludes": [ { "id": "fbmk_center2" } ],
     "blueprint_needs": {
-      "time": "2 d 6 h 45 m",
+      "time": "1 d 5 h 55 m",
       "skills": [ [ "fabrication", 3 ] ],
       "inline": {
         "tools": [  ],
         "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
         "components": [
-          [ [ "2x4", 49 ] ],
-          [ [ "nail", 148 ] ],
-          [ [ "wood_panel", 6 ] ],
-          [ [ "hinge", 4 ] ],
+          [ [ "2x4", 30 ] ],
           [ [ "glass_sheet", 1 ] ],
-          [ [ "log", 7 ] ]
+          [ [ "hinge", 4 ] ],
+          [ [ "log", 7 ] ],
+          [ [ "nail", 20 ] ],
+          [ [ "wood_panel", 2 ] ]
         ]
       }
     }
@@ -73,12 +73,12 @@
     "blueprint_provides": [ { "id": "fbmk_smoking_area" } ],
     "blueprint_excludes": [ { "id": "fbmk_smoking_area" } ],
     "blueprint_needs": {
-      "time": "1 d 10 h 25 m",
+      "time": "1 d 13 h 25 m",
       "skills": [ [ "fabrication", 3 ] ],
       "inline": {
         "tools": [  ],
         "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
-        "components": [ [ [ "2x4", 50 ] ], [ [ "nail", 89 ] ], [ [ "log", 4 ] ], [ [ "wood_panel", 4 ] ] ]
+        "components": [ [ [ "2x4", 50 ] ], [ [ "log", 4 ] ], [ [ "nail", 89 ] ], [ [ "wood_panel", 4 ] ] ]
       }
     }
   },
@@ -96,18 +96,12 @@
     "blueprint_provides": [ { "id": "fbmk_pantry_room" } ],
     "blueprint_excludes": [ { "id": "fbmk_pantry_room" } ],
     "blueprint_needs": {
-      "time": "3 d 11 h 30 m",
+      "time": "1 d 21 h 10 m",
       "skills": [ [ "fabrication", 3 ] ],
       "inline": {
         "tools": [  ],
-        "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
-        "components": [
-          [ [ "2x4", 72 ] ],
-          [ [ "glass_sheet", 2 ] ],
-          [ [ "log", 12 ] ],
-          [ [ "nail", 212 ] ],
-          [ [ "wood_panel", 10 ], [ "wood_sheet", 5 ] ]
-        ]
+        "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ] ],
+        "components": [ [ [ "log", 12 ] ], [ [ "2x4", 36 ], [ "stick", 18 ] ], [ [ "glass_sheet", 2 ] ], [ [ "nail", 12 ] ] ]
       }
     }
   },
@@ -125,18 +119,18 @@
     "blueprint_provides": [ { "id": "fbmk_canteen_dining_west" } ],
     "blueprint_excludes": [ { "id": "fbmk_canteen_dining_west" } ],
     "blueprint_needs": {
-      "time": "1 d 16 h 36 m",
-      "skills": [ [ "fabrication", 3 ], [ "survival", 0 ] ],
+      "time": "23 h 20 m",
+      "skills": [ [ "fabrication", 3 ] ],
       "inline": {
-        "tools": [ [ [ "machete", -1 ], [ "makeshift_machete", -1 ], [ "scythe", -1 ], [ "sickle", -1 ], [ "survivor_machete", -1 ] ] ],
+        "tools": [  ],
         "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
         "components": [
-          [ [ "2x4", 38 ] ],
-          [ [ "nail", 113 ] ],
-          [ [ "wood_panel", 4 ] ],
-          [ [ "hinge", 2 ] ],
+          [ [ "2x4", 25 ] ],
           [ [ "glass_sheet", 2 ] ],
-          [ [ "log", 4 ] ]
+          [ [ "hinge", 2 ] ],
+          [ [ "log", 4 ] ],
+          [ [ "nail", 25 ] ],
+          [ [ "wood_panel", 1 ] ]
         ]
       }
     }
@@ -155,18 +149,12 @@
     "blueprint_provides": [ { "id": "fbmk_canteen_dining_east" } ],
     "blueprint_excludes": [ { "id": "fbmk_canteen_dining_east" } ],
     "blueprint_needs": {
-      "time": "2 d 6 h 45 m",
+      "time": "1 d 3 h 5 m",
       "skills": [ [ "fabrication", 3 ] ],
       "inline": {
         "tools": [  ],
-        "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
-        "components": [
-          [ [ "2x4", 48 ] ],
-          [ [ "nail", 160 ] ],
-          [ [ "glass_sheet", 3 ] ],
-          [ [ "log", 5 ] ],
-          [ [ "wood_sheet", 17 ], [ "wood_panel", 6 ] ]
-        ]
+        "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ] ],
+        "components": [ [ [ "2x4", 28 ] ], [ [ "glass_sheet", 3 ] ], [ [ "log", 5 ] ], [ [ "nail", 24 ] ] ]
       }
     }
   },
@@ -184,18 +172,18 @@
     "blueprint_provides": [ { "id": "fbmk_canteen_dining_center" } ],
     "blueprint_excludes": [ { "id": "fbmk_canteen_dining_center" } ],
     "blueprint_needs": {
-      "time": "2 d 7 h 15 m",
+      "time": "12 h 15 m",
       "skills": [ [ "fabrication", 3 ] ],
       "inline": {
         "tools": [  ],
         "qualities": [ [ { "id": "DIG", "level": 2 } ], [ { "id": "HAMMER", "level": 2 } ], [ { "id": "SAW_W", "level": 2 } ] ],
         "components": [
-          [ [ "2x4", 39 ] ],
-          [ [ "nail", 205 ] ],
-          [ [ "wood_panel", 9 ] ],
-          [ [ "hinge", 2 ] ],
+          [ [ "2x4", 10 ] ],
           [ [ "glass_sheet", 1 ] ],
-          [ [ "log", 8 ] ]
+          [ [ "hinge", 2 ] ],
+          [ [ "log", 8 ] ],
+          [ [ "nail", 13 ] ],
+          [ [ "wood_panel", 1 ] ]
         ]
       }
     }
